@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeBudget — a household budget that adds up</title>
+<meta name="description" content="HomeBudget keeps one household's money in order: income, spending, budgets, savings goals and bills, all adding up.">
+<link rel="stylesheet" href="style.css">
+<script src="data.js" defer></script>
+<script src="charts.js" defer></script>
+<script src="main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/dashboard">Home<span>Budget</span></a>
+    <span class="tagline">One household, one budget, every dollar accounted for.</span>
+  </div>
+  <nav class="main-nav" aria-label="Main sections">
+    <a href="#/dashboard" data-route="dashboard">Dashboard</a>
+    <a href="#/transactions" data-route="transactions">Transactions</a>
+    <a href="#/budgets" data-route="budgets">Budgets</a>
+    <a href="#/goals" data-route="goals">Savings goals</a>
+    <a href="#/bills" data-route="bills">Bills</a>
+    <a href="#/insights" data-route="insights">Insights</a>
+  </nav>
+</header>
+<main class="wrap" id="view"></main>
+<footer class="site-footer">
+  <p>HomeBudget — a demo household budget for November 2026. Figures are a worked example: income $5,850, spending $3,108, balance $2,742. Your entries are saved only in this browser.</p>
+  <p><a href="#/dashboard">Dashboard</a> · <a href="#/transactions">Transactions</a> · <a href="#/budgets">Budgets</a> · <a href="#/goals">Savings goals</a> · <a href="#/bills">Bills</a> · <a href="#/insights">Insights</a></p>
+</footer>
+</body>
+</html>
